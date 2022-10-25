@@ -17,7 +17,6 @@ namespace CSharpCore.Test
             GildedRose app = new GildedRose(Items);
             app.UpdateQuality();
 
-            //Items[0].Name.Should().Be("foo");
             Approvals.Verify(Items[0].ToString());
         }
 
